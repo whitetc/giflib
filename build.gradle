@@ -1,0 +1,24 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.springframework.boot:spring-boot-gradle-plugin:1.2.6.RELEASE'
+    }
+}
+
+plugins {
+    id 'java'
+    //id 'spring-boot'
+}
+
+group 'org.teamtreehouseexample'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-web:1.2.6.RELEASE'
+}
